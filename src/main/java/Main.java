@@ -1,5 +1,8 @@
 public class Main {
     public static void main(String args[]) {
-        System.out.println("Hello world");
+        Counter c = new Counter(1);
+        c.inc();
+        c.inc();
+        System.out.println(c.read());
     }
 }
