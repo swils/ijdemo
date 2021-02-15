@@ -1,6 +1,6 @@
 public class Counter {
-    public int x = 0;
-    public int step;
+    private int x = 0;
+    private int step;
 
     public Counter(int s) {
         step = s;
